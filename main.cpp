@@ -33,7 +33,7 @@ int main() {
     opfbinout_t buffout;
     for (int i=0;i<F; i++) {
         for (int j=0;j<D; j++) buffin.data.val[j]=datain[O+j+i*D];
-        osfilt(buffin, buffout, coeffarr);
+        osfilt(buffin, buffout, coeffarrflat);
         for (int j=0;j<D; j++) dataout[i*D+j]=buffout.data.val[j];
     };
 
