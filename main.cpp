@@ -1,5 +1,4 @@
 #include "oversample.h"
-#include "oversample.cpp"
 #include <iostream>
 #include <stdio.h>
 
