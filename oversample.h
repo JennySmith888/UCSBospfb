@@ -41,4 +41,4 @@ typedef struct {
 
 
 
-void osfilt(opfbin_t datain, opfbinout_t dataout, coeff_t coeffarr[M][B]);
+void osfilt(opfbin_t datain, opfbinout_t dataout, coeff_t coeffarr[M*B]);
